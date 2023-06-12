@@ -28,8 +28,8 @@
       <td>{{$item->endereco}}</td>
       <td>
       <div class="btn-group" role="group" aria-label="Basic example">
-  <a href="/editarusuarios?id={{$item->id}}" class="btn btn-primary">detalhes</a>
-  <a  href="/apagarusuario?id={{$item->id}}" class="btn btn-danger">apagar</a>
+  <a href="/editarusuarios/{{$item->id}}" class="btn btn-primary">detalhes</a>
+  <a  href="/apagarusuario/{{$item->id}}" class="btn btn-danger">apagar</a>
  
 
       </td>

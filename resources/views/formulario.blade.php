@@ -25,6 +25,7 @@
                 <input type="text" class="form-control" name='endereco'>
             </div>
             <button type="submit" class="btn btn-warning">enviar</button>
+            <a href="/listausuarios">listagem</a>
 
         </form>
 
